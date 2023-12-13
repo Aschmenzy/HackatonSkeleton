@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hackaton_skeleton/BottomNavBar/BottomNavBar.dart';
 import 'package:hackaton_skeleton/pages/home_page.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Home(),
+      home: NavBar(),
       debugShowCheckedModeBanner: false,
     );
   }
