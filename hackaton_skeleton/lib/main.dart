@@ -1,10 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:hackaton_skeleton/BottomNavBar/BottomNavBar.dart';
-import 'package:hackaton_skeleton/pages/home_page.dart';
+import 'package:hackaton_skeleton/Theme/theme_provider.dart';
+import 'package:provider/provider.dart';
 
-void main() {
-  runApp(const MyApp());
+
+void main() async {
+  runApp(ChangeNotifierProvider(
+    create: (context) => ThemeProvider(),
+    child: const MyApp(),
+  ));
 }
+
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

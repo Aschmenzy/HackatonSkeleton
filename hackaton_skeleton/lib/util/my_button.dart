@@ -24,7 +24,7 @@ class MyButton extends StatelessWidget {
         child: Container(
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(borderRadius),
-              color: color,
+              color: Theme.of(context).colorScheme.primary,
               boxShadow: [
                 BoxShadow(
                   color: Colors.grey.withOpacity(0.5),

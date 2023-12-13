@@ -24,7 +24,7 @@ class MyContainer extends StatelessWidget {
             color: color,
             boxShadow: [
               BoxShadow(
-                color: Colors.grey.withOpacity(0.5),
+                color: Theme.of(context).colorScheme.secondary,
                 spreadRadius: 2,
                 blurRadius: 5,
               )
