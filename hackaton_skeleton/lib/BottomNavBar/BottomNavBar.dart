@@ -1,3 +1,5 @@
+// ignore_for_file: file_names, prefer_const_constructors, prefer_final_fields, use_key_in_widget_constructors
+
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:hackaton_skeleton/pages/home_page.dart';
