@@ -15,7 +15,7 @@ class Home extends StatelessWidget {
           Navigator.pushNamed(context, '/login');
         },
         height: 50,
-        color: Colors.grey,
+        color: Colors.white,
       ),
     );
   }

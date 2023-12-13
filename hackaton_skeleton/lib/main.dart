@@ -1,6 +1,7 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:hackaton_skeleton/BottomNavBar/BottomNavBar.dart';
-import 'package:hackaton_skeleton/pages/home_page.dart';
 
 void main() {
   runApp(const MyApp());
